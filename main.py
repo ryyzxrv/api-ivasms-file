@@ -17,22 +17,22 @@ from telegram import Update
 # --- Configuration (Fill in your details) ---
 # Your Telegram Bot Token here. You can get it from BotFather.
 # Example: YOUR_BOT_TOKEN = "1234567890:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"
-YOUR_BOT_TOKEN = "8413464357:AAGm8_2WXGGFt1xqMxQRF1LXPvwz0kco6Zw" # <--- This line needs to be changed
+YOUR_BOT_TOKEN = "8487453004:AAGbMqmK3VDiKdKNeuThPguvD27-MW_jgks" # <--- This line needs to be changed
 
 # ==================== New Addition: Multiple Admin IDs ====================
 # Add your and other admins' Telegram User IDs to the list below
-ADMIN_CHAT_IDS = ["7813580370"] # Example: ["YOUR_ADMIN_USER_ID_1", "YOUR_ADMIN_USER_ID_2"]
+ADMIN_CHAT_IDS = ["7562165596"] # Example: ["YOUR_ADMIN_USER_ID_1", "YOUR_ADMIN_USER_ID_2"]
 # =================================================================
 
 # Old chat IDs kept for the first run
-INITIAL_CHAT_IDS = ["-1003366513724"] 
+INITIAL_CHAT_IDS = ["-1003508820199"] 
 
-LOGIN_URL = "https://www.ivasms.com/login"
-BASE_URL = "https://www.ivasms.com/"
-SMS_API_ENDPOINT = "https://www.ivasms.com/portal/sms/received/getsms"
+LOGIN_URL = "https://ivas.tempnum.qzz.io/login"
+BASE_URL = "https://ivas.tempnum.qzz.io/"
+SMS_API_ENDPOINT = "https://ivas.tempnum.qzz.io/portal/sms/received/getsms"
 
-USERNAME = "rayyzneverlus@gmail.com"
-PASSWORD = "MuhFarel05"
+USERNAME = "argaf.nugraha@gmail.com"
+PASSWORD = "4rg_ryyz"
 
 # Reduced interval to 2 seconds to keep the bot responsive and reduce server load
 POLLING_INTERVAL_SECONDS = 2 
